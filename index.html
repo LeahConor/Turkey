@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving!</title>
+    <style>
+        @font-face {
+            font-family: Plein;
+            src: url(Plein-Bold.otf);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ffedc6;
+            font-family: Plein;
+        }
+        .imgandbig2025text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 0 5vw;
+        }
+        .numbersandsomeotherstufflol {
+            display: flex;
+            flex-direction: column;
+        }
+        .imgandbig2025text h1 {
+            font-size: 12vw;
+            margin: 0;
+            font-weight: 999;
+            color: transparent;
+            -webkit-text-stroke: 2px rgb(114, 44, 0);
+        }
+        .imgandbig2025text h3 {
+            font-size: 7vw;
+            margin: 0;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 2px rgb(114, 44, 0);
+        }
+        .imgandbig2025text img {
+            width: 40vw;
+            max-width: 900px;
+            height: auto;
+        }
+        .contentlolthatisunderalltheweirdcontentabovethisdiv {
+            padding: 5vw;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .contentlolthatisunderalltheweirdcontentabovethisdiv h1 {
+            grid-column: 1 / -1;
+            text-align: center;
+            font-size: 5vw;
+            margin-bottom: 2vw;
+            color: rgb(114, 44, 0);
+        }
+        .contentlolthatisunderalltheweirdcontentabovethisdiv img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        @media (max-width: 900px) and (min-width: 600px) {
+            .contentlolthatisunderalltheweirdcontentabovethisdiv {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .contentlolthatisunderalltheweirdcontentabovethisdiv {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 900px) {
+            .imgandbig2025text {
+                flex-direction: column-reverse;
+                justify-content: center;
+                text-align: center;
+                height: auto;
+                padding: 10vw 5vw;
+                gap: 5vw;
+            }
+            .numbersandsomeotherstufflol {
+                align-items: center;
+            }
+            .imgandbig2025text img {
+                width: 60vw;
+                max-width: 400px;
+            }
+            .imgandbig2025text h1 {
+                font-size: 18vw;
+            }
+            .imgandbig2025text h3 {
+                font-size: 10vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgandbig2025text">
+        <div class="numbersandsomeotherstufflol">
+            <h1>2025!</h1>
+            <h3>Turky day!</h3>
+            <p>Site by me, Leah &lt;3</p>
+        </div>
+        <img src="tg-removebg-preview.png" alt="a cute turkey &lt;3">
+    </div>
+    <div class="contentlolthatisunderalltheweirdcontentabovethisdiv">
+        <h1>TURKEY GALLERY</h1>
+        <img src="turkey1.jpg" alt="turkey lmao">
+        <img src="turkey2_300_1-1.jpg" alt="Turkey group">
+        <img src="turkey3.jpg" alt="oh... that a turkey?">
+        <img src="turkey4.jpeg" alt="um. is that blood">
+        <img src="turkey5.jpg" alt="mmmmm.. yummy">
+        <img src="turkey6.jpg" alt="two turkey">
+    </div>
+</body>
+</html>
